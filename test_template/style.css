@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+
+.navbar-brand {
+    display: inline-block;
+    
+    color: lightyellow;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#navbarDropdown{
+    align-items: flex-end;
+}
+
+.sticky-top{
+    color: wheat;
+}
