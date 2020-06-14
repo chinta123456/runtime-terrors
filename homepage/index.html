@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!----head info-->
+<head>
+  <title>The Alcoholism Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<style>
+#logo{
+    background-color:#a67c00!important; 
+    padding: 10px;
+}
+#navbar-main{
+    height: 70px;
+}
+#jumbotron{
+    padding: 130px;
+}
+body {
+    font-family: 'Montserrat';font-size: 16px;
+}
+#jumbo-tile{
+    font-size: 3em;
+    ;
+}
+.card {
+    min-width: 25%;
+}
+</style>
+
+<!---main body-->
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0" id="jumbotron">
+        <div id='jumbo-title'>
+            <h1 style='font-size: 5em; color:#bf9b30;'><b>City Cocktails</b></h1>
+        </div>
+        <p style="font-size:24px; padding-top:4px;">Choose your own cocktail and adventure!</p> 
+    </div>
+    <!---Navigation Bar-->
+    <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark" id='navbar-main'>
+        <a class="navbar-brand" href="index.html" id='logo'>City Cocktails</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    </div>  
+    </nav>
+    <!--PAGE-->
+    <div class="container-fluid" id="container1">
+    <br>
+    <p>Have you ever been on a vacation only to be let down by the available alcohol options? Did you know that all of the Catskills region only have, like, three breweries (for reference, Brooklyn has more than three)?</p>
+    <p>Fear not, for our website will help you pick a city suited to your alcohol needs. Simply take our test, and then explore the options in the city you get!</p>
+    </div>
+        <!--Rest of the body-->
+    
+        <div class="row" id="container1">
+            <div class="col-md" id="container1">
+                <div class="container">
+                    <div class="card-header text-center">
+                    <h3><strong>Take our test!</strong></h3>
+                    </div>
+                    <div class="card-deck text-center">
+                        <p>If you had to choose a type of alcoholic beverage to drink for the rest of your life, which ONE of the following would you choose?</p>
+                        <div class="card shadow" id="Beer">
+                            <div class="card-body">
+                                <h1>Beer</h1>
+                            </div>
+                        </div>
+                        <div class="card shadow" id="Cocktails">
+                            <div class="card-body">
+                                <h1>Cocktails</h1>
+                            </div>
+                        </div>
+                    </div>
+                    </br>
+                    </br>
+                    <div class="card-deck text-center">
+                        <p>And if you had to choose your favorite <u>taste note</u> in your alcoholic beverage of choice, which ONE of the following would you choose?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="container2">
+            <div class="col-md">
+                <div class="container">
+                    <div class="card-header text-center">
+                    <h3><strong>How do we calculate your results?</strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-8" style="margin:0 auto;">
+                    <p>We analyzed the composition of around 1000 beers and around 1000 cocktails to arrive at a scientific estimation of your favorite alcohol, then match it with the drinks available in various American cities.</p>
+                    <div class="sankey_beer"></div>
+                    <div class="sankey_cocktails"></div>
+                </div>
+            </div>
+        </div>
+
+    
+    <!--Some trivia about the city-->
+    <!--Table-->
+    <div class="row">
+      <!--Tabulated facts-->
+      <div class="col-md-4" id="container5">
+        <!--Facts-->
+        
+      </div>
+    </div>
+</div>
+  <!-- Footer -->
+  <footer class="footer-nav"></footer>
+
+</div>
+</body>
+</html>
+
+
