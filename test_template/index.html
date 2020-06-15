@@ -10,34 +10,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
 </head>
 <style>
-#logo{
-    background-color:#a67c00!important; 
-    padding: 10px;
-}
-#navbar-main{
-    height: 70px;
-}
-#jumbotron{
-    padding: 130px;
-}
-body {
-    font-family: 'Montserrat';font-size: 16px;
-}
-#jumbo-tile{
-    font-size: 3em;
-    ;
-}
+
 </style>
 
 <!---main body-->
 <body>
-    <div class="jumbotron text-center" style="margin-bottom:0" id="jumbotron">
-        <div id='jumbo-title'>
-            <h1 style='font-size: 5em; color:#bf9b30;'><b>City Cocktails</b></h1>
+    <div class="jumbotron card card-image" style=" height:600px; margin-bottom:0; background-size: cover; padding:130px; background-image: url(https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1720&q=80);">
+        <div class="text-white text-center" style="margin-bottom:0;" id="jumbotron-tile">
+            <div id='jumbo-title'class="card-title h1-responsive pt-3 mb-5 font-bold">
+                <h1  id='city-name'><b>City Cocktails</b></h1>
+            </div>
+            <p style="font-size:24px; padding-top:4px;">Choose your own cocktail and adventure!</p> 
         </div>
-        <p style="font-size:24px; padding-top:4px;">Choose your own cocktail and adventure!</p> 
     </div>
     <!---Navigation Bar-->
     <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark" id='navbar-main'>
@@ -61,6 +48,7 @@ body {
             <a class="dropdown-item" href="#">Boston</a>
             <a class="dropdown-item" href="#">San Francisco</a>
             <a class="dropdown-item" href="#">Denver</a>
+            <a class="dropdown-item" href="#">Philadelphia</a>
           </div>
       </li>   
     </ul>
@@ -68,23 +56,89 @@ body {
     </nav>
 
     <div class="container-fluid" id="container1">
-    <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua. Diam sit amet nisl suscipit adipiscing bibendum 
-        est ultricies. Venenatis tellus in metus vulputate eu. Integer enim neque volutpat ac 
-        tincidunt vitae semper quis. Tincidunt vitae semper quis lectus nulla at volutpat. 
-        Proin fermentum leo vel orci porta non pulvinar. Nibh ipsum consequat nisl vel pretium 
-        lectus quam id. Fermentum et sollicitudin ac orci phasellus. Sit amet nulla facilisi 
-        morbi tempus iaculis urna id. Faucibus ornare suspendisse sed nisi lacus sed viverra 
-        tellus in. Nibh venenatis cras sed felis eget. Aliquam sem fringilla ut morbi tincidunt. 
-        Cras fermentum odio eu feugiat pretium nibh. Leo vel fringilla est ullamcorper eget nulla facilisi. 
-        Tellus cras adipiscing enim eu turpis. Massa tincidunt nunc pulvinar sapien. Massa vitae tortor 
-        condimentum lacinia quis vel eros donec ac. Justo laoreet sit amet cursus sit amet. 
-        Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. 
-        Orci nulla pellentesque dignissim enim sit.</p>
+        <div class="row" id="container2">
+            <div class="col-md">
+                <div class="card text-center pt-3 mb-2 mt-2">
+                    <h3><strong>Top Five Cocktails</strong></h3>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card m-2">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Drink One</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Drink Two</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Drink Three</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Drink Four</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card m-2">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Drink Five</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
     </div>
 <!--Rest of the body-->
-    
+        <div class="container-fluid" id="container2">
+        <div class="row" id="container2">
+            <div class="col-md-8">
+                <div class="card text-center">
+                    <div class="card-header">
+                    <h3><strong>Where to Go...</strong></h3>
+                    </div>
+                </div>
+                <div class="card-body" id='to-do-list'>
+                    <tbody></tbody>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua.</p>
+                    <p>
+                        <!--<img src='https://picsum.photos/600/600' alt='random-image'>--->
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                    <h3><strong>City Facts</strong></h3>
+                </div>
+                </div>
+                <div class="card-body">
+                    <h5><em>Your Data in a table</em></h5>
+                    <p> {{ db.selected_data_table | safe }}</p>
+                </div>
+            </div>
+        </div>
+        </div>
         <div class="row" id="container1">
             <div class="col-md" id="container1">
                 <div class="card text-center">
@@ -109,36 +163,7 @@ body {
             </div>
         </div>
 
-    <div class="container-fluid" id="container2">
-        <div class="row" id="container2">
-            <div class="col-md-8">
-                <div class="card text-center">
-                    <div class="card-header">
-                    <h3><strong>Where to Go...</strong></h3>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
-                    <p>
-                        <img src='https://picsum.photos/600/600' alt='random-image'>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card text-center">
-                    <div class="card-header">
-                    <h3><strong>City Facts</strong></h3>
-                </div>
-                </div>
-                <div class="card-body">
-                    <h5><em>Your Data in a table</em></h5>
-                    <p> {{ db.selected_data_table | safe }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     
     <!--Some trivia about the city-->
     <!--Table-->
