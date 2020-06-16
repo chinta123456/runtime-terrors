@@ -71,7 +71,7 @@ function destination() {
     var selCity = "Denver";
     console.log(selCity);
   } else if (beverage === "Beer" && attribute === "Sweet") {
-    var selCity = "Nashville";
+    var selCity = "Philadelphia";
     console.log(selCity);
   } else if (beverage === "Beer" && attribute === "Malty") {
     var selCity = "Boston";
@@ -86,7 +86,7 @@ function destination() {
     var selCity = "Denver";
     console.log(selCity);
   } else if (beverage === "Cocktails" && attribute === "Sweet") {
-    var selCity = "Nashville";
+    var selCity = "Philadelphia";
     console.log(selCity);
   } else if (beverage === "Cocktails" && attribute === "Smokey") {
     var selCity = "Boston";
