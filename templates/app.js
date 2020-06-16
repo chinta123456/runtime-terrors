@@ -121,7 +121,7 @@ function beersankeybuilder() {
           width: 0.5
         },
        label: data.labels,
-       color: "red"
+       color: "#a67c00"
           },
     
       link: {
@@ -157,7 +157,7 @@ function cocktailsankeybuilder() {
           width: 0.5
         },
        label: data.labels,
-       color: "red"
+       color: "#a67c00"
           },
     
       link: {
