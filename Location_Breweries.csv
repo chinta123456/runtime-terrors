@@ -1,115 +1,115 @@
-,isInBusiness,isMassOwned,isOrganic,id,name,nameShortDisplay
-0,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-1,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-2,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-3,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-4,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-5,Y,Y,N,HaPdSL,Guinness,Guinness
-6,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-7,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-8,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-9,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-10,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-11,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-12,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-13,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-14,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-15,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-16,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-17,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-18,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
-19,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-20,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-21,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-22,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-23,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-24,Y,Y,N,HaPdSL,Guinness,Guinness
-25,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-26,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-27,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-28,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-29,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-30,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-31,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-32,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-33,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-34,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-35,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-36,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-37,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
-38,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-39,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-40,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-41,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-42,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-43,Y,Y,N,HaPdSL,Guinness,Guinness
-44,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-45,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-46,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-47,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-48,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-49,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-50,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-51,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-52,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-53,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-54,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-55,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-56,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
-57,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-58,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-59,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-60,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-61,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-62,Y,Y,N,HaPdSL,Guinness,Guinness
-63,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-64,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-65,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-66,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-67,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-68,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-69,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-70,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-71,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-72,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-73,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-74,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-75,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
-76,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-77,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-78,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-79,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-80,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-81,Y,Y,N,HaPdSL,Guinness,Guinness
-82,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-83,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-84,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-85,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-86,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-87,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-88,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-89,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-90,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-91,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-92,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-93,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-94,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
-95,Y,Y,N,BznahA,Anheuser-Busch InBev,Anheuser-Busch InBev
-96,Y,N,N,rd8LRZ,Boston Beer Company (Samuel Adams),Boston Beer Company (Samuel Adams)
-97,Y,Y,N,IImUD9,Breckenridge Brewery,Breckenridge
-98,Y,N,N,uM2jeT,Brouwerij De Leite,Brouwerij De Leite
-99,Y,N,N,p3YrOa,Dock Street Brewery,Dock Street
-100,Y,Y,N,HaPdSL,Guinness,Guinness
-101,Y,N,N,DMU2Kf,Harmon Brewing Company,Harmon
-102,Y,N,N,p1tFbP,Jackalope Brewing Company,Jackalope
-103,Y,Y,N,nLsoQ9,Lagunitas Brewing Company,Lagunitas
-104,Y,N,N,941OaA,Last Name Brewing,Dale Bros.
-105,Y,N,N,yX6twV,Laughing Dog Brewing,Laughing Dog
-106,Y,Y,N,hGFVYy,Miller Brewing Company,Miller
-107,Y,N,N,AqEUBQ,New Holland Brewing Company,New Holland
-108,Y,N,N,q6vJUK,Oskar Blues Brewery,Oskar Blues
-109,Y,N,N,4F7QA9,Portsmouth Brewery,Portsmouth
-110,Y,N,N,nHLlnK,Sierra Nevada Brewing Company,Sierra Nevada
-111,Y,N,N,TMc6H2,SweetWater Brewing Company,Sweetwater
-112,Y,N,N,DifSi4,Wachusett Brewing Company,Wachusett
-113,Y,N,N,VEY3Xa,Zero Gravity Craft Brewery,Zero Gravity Craft
+brewery_id,brewery_nameShortDisplay,isOrganic,location,brewery_name
+BznahA,Anheuser-Busch InBev,N,Denver,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,Denver,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,Denver,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,Denver,Brouwerij De Leite
+p3YrOa,Dock Street,N,Denver,Dock Street Brewery
+HaPdSL,Guinness,N,Denver,Guinness
+DMU2Kf,Harmon,N,Denver,Harmon Brewing Company
+p1tFbP,Jackalope,N,Denver,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,Denver,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,Denver,Last Name Brewing
+yX6twV,Laughing Dog,N,Denver,Laughing Dog Brewing
+hGFVYy,Miller,N,Denver,Miller Brewing Company
+AqEUBQ,New Holland,N,Denver,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,Denver,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,Denver,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,Denver,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,Denver,SweetWater Brewing Company
+DifSi4,Wachusett,N,Denver,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,Denver,Zero Gravity Craft Brewery
+BznahA,Anheuser-Busch InBev,N,Nashville,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,Nashville,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,Nashville,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,Nashville,Brouwerij De Leite
+p3YrOa,Dock Street,N,Nashville,Dock Street Brewery
+HaPdSL,Guinness,N,Nashville,Guinness
+DMU2Kf,Harmon,N,Nashville,Harmon Brewing Company
+p1tFbP,Jackalope,N,Nashville,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,Nashville,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,Nashville,Last Name Brewing
+yX6twV,Laughing Dog,N,Nashville,Laughing Dog Brewing
+hGFVYy,Miller,N,Nashville,Miller Brewing Company
+AqEUBQ,New Holland,N,Nashville,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,Nashville,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,Nashville,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,Nashville,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,Nashville,SweetWater Brewing Company
+DifSi4,Wachusett,N,Nashville,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,Nashville,Zero Gravity Craft Brewery
+BznahA,Anheuser-Busch InBev,N,New_York_City,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,New_York_City,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,New_York_City,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,New_York_City,Brouwerij De Leite
+p3YrOa,Dock Street,N,New_York_City,Dock Street Brewery
+HaPdSL,Guinness,N,New_York_City,Guinness
+DMU2Kf,Harmon,N,New_York_City,Harmon Brewing Company
+p1tFbP,Jackalope,N,New_York_City,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,New_York_City,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,New_York_City,Last Name Brewing
+yX6twV,Laughing Dog,N,New_York_City,Laughing Dog Brewing
+hGFVYy,Miller,N,New_York_City,Miller Brewing Company
+AqEUBQ,New Holland,N,New_York_City,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,New_York_City,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,New_York_City,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,New_York_City,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,New_York_City,SweetWater Brewing Company
+DifSi4,Wachusett,N,New_York_City,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,New_York_City,Zero Gravity Craft Brewery
+BznahA,Anheuser-Busch InBev,N,Boston,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,Boston,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,Boston,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,Boston,Brouwerij De Leite
+p3YrOa,Dock Street,N,Boston,Dock Street Brewery
+HaPdSL,Guinness,N,Boston,Guinness
+DMU2Kf,Harmon,N,Boston,Harmon Brewing Company
+p1tFbP,Jackalope,N,Boston,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,Boston,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,Boston,Last Name Brewing
+yX6twV,Laughing Dog,N,Boston,Laughing Dog Brewing
+hGFVYy,Miller,N,Boston,Miller Brewing Company
+AqEUBQ,New Holland,N,Boston,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,Boston,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,Boston,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,Boston,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,Boston,SweetWater Brewing Company
+DifSi4,Wachusett,N,Boston,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,Boston,Zero Gravity Craft Brewery
+BznahA,Anheuser-Busch InBev,N,New_Orleans,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,New_Orleans,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,New_Orleans,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,New_Orleans,Brouwerij De Leite
+p3YrOa,Dock Street,N,New_Orleans,Dock Street Brewery
+HaPdSL,Guinness,N,New_Orleans,Guinness
+DMU2Kf,Harmon,N,New_Orleans,Harmon Brewing Company
+p1tFbP,Jackalope,N,New_Orleans,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,New_Orleans,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,New_Orleans,Last Name Brewing
+yX6twV,Laughing Dog,N,New_Orleans,Laughing Dog Brewing
+hGFVYy,Miller,N,New_Orleans,Miller Brewing Company
+AqEUBQ,New Holland,N,New_Orleans,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,New_Orleans,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,New_Orleans,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,New_Orleans,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,New_Orleans,SweetWater Brewing Company
+DifSi4,Wachusett,N,New_Orleans,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,New_Orleans,Zero Gravity Craft Brewery
+BznahA,Anheuser-Busch InBev,N,San_Francisco,Anheuser-Busch InBev
+rd8LRZ,Boston Beer Company (Samuel Adams),N,San_Francisco,Boston Beer Company (Samuel Adams)
+IImUD9,Breckenridge,N,San_Francisco,Breckenridge Brewery
+uM2jeT,Brouwerij De Leite,N,San_Francisco,Brouwerij De Leite
+p3YrOa,Dock Street,N,San_Francisco,Dock Street Brewery
+HaPdSL,Guinness,N,San_Francisco,Guinness
+DMU2Kf,Harmon,N,San_Francisco,Harmon Brewing Company
+p1tFbP,Jackalope,N,San_Francisco,Jackalope Brewing Company
+nLsoQ9,Lagunitas,N,San_Francisco,Lagunitas Brewing Company
+941OaA,Dale Bros.,N,San_Francisco,Last Name Brewing
+yX6twV,Laughing Dog,N,San_Francisco,Laughing Dog Brewing
+hGFVYy,Miller,N,San_Francisco,Miller Brewing Company
+AqEUBQ,New Holland,N,San_Francisco,New Holland Brewing Company
+q6vJUK,Oskar Blues,N,San_Francisco,Oskar Blues Brewery
+4F7QA9,Portsmouth,N,San_Francisco,Portsmouth Brewery
+nHLlnK,Sierra Nevada,N,San_Francisco,Sierra Nevada Brewing Company
+TMc6H2,Sweetwater,N,San_Francisco,SweetWater Brewing Company
+DifSi4,Wachusett,N,San_Francisco,Wachusett Brewing Company
+VEY3Xa,Zero Gravity Craft,N,San_Francisco,Zero Gravity Craft Brewery

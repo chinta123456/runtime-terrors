@@ -25,7 +25,7 @@
 body {
     font-family: 'Montserrat';font-size: 16px;
 }
-#jumbo-tile{
+#jumbo-tile {
     font-size: 3em;
     ;
 }
@@ -35,7 +35,14 @@ body {
 .jumbotron {
     background-image: url("https://images.unsplash.com/photo-1576271758698-e64b83251f4a");
     background-size: cover;
+
 }
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+}
+
 </style>
 
 <!---main body-->
@@ -71,22 +78,24 @@ body {
                     </div>
                     <div class="card-deck text-center">
                         <p>If you had to choose a type of alcoholic beverage to drink for the rest of your life, which ONE of the following would you choose?</p>
-                        <div class="card shadow" id="Beer">
+                        <div class="card shadow">
                             <div class="card-body">
-                                <h1>Beer</h1>
+                                <input type="button" onclick="beerclick(this.value); data_log(this.value)" value="Beer" id="Beer">
                             </div>
                         </div>
-                        <div class="card shadow" id="Cocktails">
+                        <div class="card shadow">
                             <div class="card-body">
-                                <h1>Cocktails</h1>
+                                <input type="button" onclick="cocktailclick(this.value); data_log(this.value)" value="Cocktails" id="Cocktails">
                             </div>
                         </div>
                     </div>
                     </br>
                     </br>
-                    <div class="card-deck text-center">
-                        <p>And if you had to choose your favorite <u>taste note</u> in your alcoholic beverage of choice, which ONE of the following would you choose?</p>
+                    <div class="card-deck text-center" id="selDataset">
+                        <p>And if you had to choose your favorite <u>attribute</u> of your alcoholic beverage of choice, which ONE of the following would you choose?</p>
                     </div>
+                    </br>
+                    </br>
                 </div>
             </div>
         </div>
@@ -121,6 +130,11 @@ body {
   <footer class="footer-nav"></footer>
 
 </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
 </body>
 </html>
 
