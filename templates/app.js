@@ -137,7 +137,8 @@ function beersankeybuilder() {
       title: "Beer Categories",
       font: {
         size: 10
-      }
+      },
+      height: 2700
     }  
     Plotly.react('sankey_beer', chartdata, layout)  
   });
@@ -173,7 +174,8 @@ function cocktailsankeybuilder() {
       title: "Cocktail Categories",
       font: {
         size: 10
-      }
+      },
+      height: 2700
     }  
     Plotly.react('sankey_cocktails', chartdata, layout)  
   });
