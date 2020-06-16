@@ -39,7 +39,9 @@ def city():
             del city['_id']
             results.append(city)
 
-    datadic = {"top5":top5, "tourdata":results}
+    
+
+    datadic = {"top5":top5, "tourdata":results }
 
     return(datadic)
 

@@ -195,7 +195,18 @@ fetch('/citydata').then(d=>d.json().then(data=>{
       td.innerHTML= `<b>${city}</b>`
       tr.appendChild(td)
       tbl.appendChild(tr);
+  
+  tour_table = document.getElementById('to-do-list')
+  tour_table.innerHTML="<thead><tr><th>Top10 Tours in the City</th></thead>"
+  data.tourdata.result.forEach(city => { 
+    tr = document.createElement('tr')
+    td = document.createElement('td')
+    td.innerHTML= `<b>${city}</b>`
+    tr.appendChild(td)
+    tbl.appendChild(tr);
+
   });
-}));
+})
+
 
 // MOE & Marissa your code will go here!
