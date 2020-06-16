@@ -3,6 +3,7 @@ var quizData_cocktail = ['Sour', 'Sweet', 'Smokey', 'Spicy', 'Smooth'];
 
 var beverage = "";
 var attribute = "";
+var selCity = "";
 
 function beerclick() {
     var attributes = quizData_beer;
@@ -51,14 +52,12 @@ function cocktailclick() {
 };
 
 function data_log() {
-  console.log(event.target.value);
   if (event.target.value === 'Beer' || event.target.value === 'Cocktails') {
-    var beverage = event.target.value
+    beverage = event.target.value
   } else {
-    var attribute = event.target.value
+    attribute = event.target.value
+    selCity = destination()
   };
-  console.log(beverage);
-  console.log(attribute);
 };
 
 function destination() {
@@ -96,7 +95,5 @@ function destination() {
 
   return selCity
 };
-
-var selCity = destination();
 
 // YOUR CODE HERE!
