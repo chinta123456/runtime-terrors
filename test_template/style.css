@@ -4,16 +4,16 @@ html {
 
 body {
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
 .navbar-brand {
     display: inline-block;
-    
+    background-color:#a67c00!important; 
     color: lightyellow;
     padding: 10px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #navbarDropdown{
@@ -22,4 +22,18 @@ body {
 
 .sticky-top{
     color: wheat;
+}
+
+
+#navbar-main{
+    height: 80px;
+}
+
+body {
+    font-family: 'Montserrat';font-size: 18px;
+}
+
+#city-name{
+    font-size: 5em ;
+    color:#bf9b30;
 }
