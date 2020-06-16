@@ -183,4 +183,19 @@ function cocktailsankeybuilder() {
 
 beersankeybuilder();
 cocktailsankeybuilder();
-// YOUR CODE HERE!
+
+// fetch city data for busiest months, tour data (bars and restaurant recommendations) from flask app.py
+fetch('/citydata').then(d=>d.json().then(data=>{
+  tbl = document.getElementById('busyMonthsTable')
+  tbl.innerHTML="<thead><tr><th>Busiest Months in 2017, by Flight Arrivals</th></thead>"
+  console.log(data) 
+  data.top5.result.forEach(city => { 
+      tr = document.createElement('tr')
+      td = document.createElement('td')
+      td.innerHTML= `<b>${city}</b>`
+      tr.appendChild(td)
+      tbl.appendChild(tr);
+  });
+}));
+
+// MOE & Marissa your code will go here!
