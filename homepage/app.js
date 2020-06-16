@@ -96,4 +96,5 @@ function destination() {
   return selCity
 };
 
+
 // YOUR CODE HERE!
