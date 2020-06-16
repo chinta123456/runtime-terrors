@@ -59,7 +59,7 @@
         <div class="row" id="container2">
             <div class="col-md">
                 <div class="card text-center pt-3 mb-2 mt-2">
-                    <h3><strong>Top Five Cocktails</strong></h3>
+                    <h3><strong>Top Five Bars</strong></h3>
                 </div>
             </div>
             <div class="card-deck">
@@ -106,35 +106,91 @@
               </div>
         </div>
     </div>
-    </div>
+    <!--Top Restaurants-->
+    <div class="container-fluid" id="container2">
+      <div class="row" id="container2">
+          <div class="col-md">
+              <div class="card text-center pt-3 mb-2 mt-2">
+                  <h3><strong>Top Five Restaurant</strong></h3>
+              </div>
+          </div>
+          <div class="card-deck">
+              <div class="card m-2">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Res One</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-2">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Res Two</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-2">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Res Three</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-2">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Res Four</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                 
+                  <div class="card-body">
+                    <h5 class="card-title">Res Five</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
+      </div>
+  </div>
+    
 <!--Rest of the body-->
         <div class="container-fluid" id="container2">
         <div class="row" id="container2">
-            <div class="col-md-8">
+            <div class="col-md-8 mt-2">
                 <div class="card text-center">
                     <div class="card-header">
-                    <h3><strong>Where to Go...</strong></h3>
+                    <h3><strong>Top Tours</strong></h3>
                     </div>
                 </div>
                 <div class="card-body" id='to-do-list'>
                     <tbody></tbody>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua.</p>
+                        magna aliqua.
+                    </p>
                     <p>
                         <!--<img src='https://picsum.photos/600/600' alt='random-image'>--->
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
                 <div class="card text-center">
                     <div class="card-header">
-                    <h3><strong>City Facts</strong></h3>
+                    <h3><strong>When to visit</strong></h3>
                 </div>
                 </div>
-                <div class="card-body">
-                    <h5><em>Your Data in a table</em></h5>
-                    <p> {{ db.selected_data_table | safe }}</p>
+                <div class="card-body text-center">
+                    <p><em>~ [January] ~</em></p>
+                    <p><em>~ [February] ~</em></p>
+                    <p><em>~ [March] ~</em></p>
+                    <p><em>~ [April] ~</em></p>
+                    <p><em>~ [May] ~</em></p>
                 </div>
             </div>
         </div>
@@ -143,7 +199,7 @@
             <div class="col-md" id="container1">
                 <div class="card text-center">
                     <div class="card-header">
-                    <h3><strong>Ah, the city of {{ db.city }}</strong></h3>
+                    <h3><strong>Map Division</strong></h3>
                     </div>
                 </div>
                 <div class="card-body">
