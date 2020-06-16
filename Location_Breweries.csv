@@ -1,115 +1,100 @@
-brewery_id,brewery_nameShortDisplay,isOrganic,location,brewery_name
-BznahA,Anheuser-Busch InBev,N,Denver,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,Denver,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,Denver,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,Denver,Brouwerij De Leite
-p3YrOa,Dock Street,N,Denver,Dock Street Brewery
-HaPdSL,Guinness,N,Denver,Guinness
-DMU2Kf,Harmon,N,Denver,Harmon Brewing Company
-p1tFbP,Jackalope,N,Denver,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,Denver,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,Denver,Last Name Brewing
-yX6twV,Laughing Dog,N,Denver,Laughing Dog Brewing
-hGFVYy,Miller,N,Denver,Miller Brewing Company
-AqEUBQ,New Holland,N,Denver,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,Denver,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,Denver,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,Denver,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,Denver,SweetWater Brewing Company
-DifSi4,Wachusett,N,Denver,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,Denver,Zero Gravity Craft Brewery
-BznahA,Anheuser-Busch InBev,N,Nashville,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,Nashville,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,Nashville,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,Nashville,Brouwerij De Leite
-p3YrOa,Dock Street,N,Nashville,Dock Street Brewery
-HaPdSL,Guinness,N,Nashville,Guinness
-DMU2Kf,Harmon,N,Nashville,Harmon Brewing Company
-p1tFbP,Jackalope,N,Nashville,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,Nashville,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,Nashville,Last Name Brewing
-yX6twV,Laughing Dog,N,Nashville,Laughing Dog Brewing
-hGFVYy,Miller,N,Nashville,Miller Brewing Company
-AqEUBQ,New Holland,N,Nashville,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,Nashville,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,Nashville,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,Nashville,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,Nashville,SweetWater Brewing Company
-DifSi4,Wachusett,N,Nashville,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,Nashville,Zero Gravity Craft Brewery
-BznahA,Anheuser-Busch InBev,N,New_York_City,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,New_York_City,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,New_York_City,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,New_York_City,Brouwerij De Leite
-p3YrOa,Dock Street,N,New_York_City,Dock Street Brewery
-HaPdSL,Guinness,N,New_York_City,Guinness
-DMU2Kf,Harmon,N,New_York_City,Harmon Brewing Company
-p1tFbP,Jackalope,N,New_York_City,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,New_York_City,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,New_York_City,Last Name Brewing
-yX6twV,Laughing Dog,N,New_York_City,Laughing Dog Brewing
-hGFVYy,Miller,N,New_York_City,Miller Brewing Company
-AqEUBQ,New Holland,N,New_York_City,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,New_York_City,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,New_York_City,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,New_York_City,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,New_York_City,SweetWater Brewing Company
-DifSi4,Wachusett,N,New_York_City,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,New_York_City,Zero Gravity Craft Brewery
-BznahA,Anheuser-Busch InBev,N,Boston,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,Boston,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,Boston,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,Boston,Brouwerij De Leite
-p3YrOa,Dock Street,N,Boston,Dock Street Brewery
-HaPdSL,Guinness,N,Boston,Guinness
-DMU2Kf,Harmon,N,Boston,Harmon Brewing Company
-p1tFbP,Jackalope,N,Boston,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,Boston,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,Boston,Last Name Brewing
-yX6twV,Laughing Dog,N,Boston,Laughing Dog Brewing
-hGFVYy,Miller,N,Boston,Miller Brewing Company
-AqEUBQ,New Holland,N,Boston,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,Boston,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,Boston,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,Boston,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,Boston,SweetWater Brewing Company
-DifSi4,Wachusett,N,Boston,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,Boston,Zero Gravity Craft Brewery
-BznahA,Anheuser-Busch InBev,N,New_Orleans,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,New_Orleans,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,New_Orleans,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,New_Orleans,Brouwerij De Leite
-p3YrOa,Dock Street,N,New_Orleans,Dock Street Brewery
-HaPdSL,Guinness,N,New_Orleans,Guinness
-DMU2Kf,Harmon,N,New_Orleans,Harmon Brewing Company
-p1tFbP,Jackalope,N,New_Orleans,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,New_Orleans,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,New_Orleans,Last Name Brewing
-yX6twV,Laughing Dog,N,New_Orleans,Laughing Dog Brewing
-hGFVYy,Miller,N,New_Orleans,Miller Brewing Company
-AqEUBQ,New Holland,N,New_Orleans,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,New_Orleans,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,New_Orleans,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,New_Orleans,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,New_Orleans,SweetWater Brewing Company
-DifSi4,Wachusett,N,New_Orleans,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,New_Orleans,Zero Gravity Craft Brewery
-BznahA,Anheuser-Busch InBev,N,San_Francisco,Anheuser-Busch InBev
-rd8LRZ,Boston Beer Company (Samuel Adams),N,San_Francisco,Boston Beer Company (Samuel Adams)
-IImUD9,Breckenridge,N,San_Francisco,Breckenridge Brewery
-uM2jeT,Brouwerij De Leite,N,San_Francisco,Brouwerij De Leite
-p3YrOa,Dock Street,N,San_Francisco,Dock Street Brewery
-HaPdSL,Guinness,N,San_Francisco,Guinness
-DMU2Kf,Harmon,N,San_Francisco,Harmon Brewing Company
-p1tFbP,Jackalope,N,San_Francisco,Jackalope Brewing Company
-nLsoQ9,Lagunitas,N,San_Francisco,Lagunitas Brewing Company
-941OaA,Dale Bros.,N,San_Francisco,Last Name Brewing
-yX6twV,Laughing Dog,N,San_Francisco,Laughing Dog Brewing
-hGFVYy,Miller,N,San_Francisco,Miller Brewing Company
-AqEUBQ,New Holland,N,San_Francisco,New Holland Brewing Company
-q6vJUK,Oskar Blues,N,San_Francisco,Oskar Blues Brewery
-4F7QA9,Portsmouth,N,San_Francisco,Portsmouth Brewery
-nHLlnK,Sierra Nevada,N,San_Francisco,Sierra Nevada Brewing Company
-TMc6H2,Sweetwater,N,San_Francisco,SweetWater Brewing Company
-DifSi4,Wachusett,N,San_Francisco,Wachusett Brewing Company
-VEY3Xa,Zero Gravity Craft,N,San_Francisco,Zero Gravity Craft Brewery
+name,geometry_location_lat,geometry_location_lng,location
+Wynkoop Brewing Company,39.753454,-104.998467,Denver
+Epic Brewing Company,39.763171,-104.981361,Denver
+Cerebral Brewing,39.7397474,-104.9454461,Denver
+Alpine Dog Brewing Company,39.740326,-104.974929,Denver
+Baere Brewing Company,39.7214067,-104.9870068,Denver
+Crazy Mountain Brewery,39.7237459,-105.0004981,Denver
+Prost Brewing Co. & Biergarten - Denver,39.7614592,-105.0066456,Denver
+Denver Beer Co,39.758225,-105.0073556,Denver
+Black Shirt Brewing Co,39.7697388,-104.9728259,Denver
+Zuni Street Brewing Company,39.7586602,-105.0153262,Denver
+Call to Arms Brewing Company,39.7789062,-105.0435791,Denver
+Jagged Mountain Craft Brewery,39.752232,-104.991415,Denver
+Blue Moon Brewing Company,39.7736528,-104.9769889,Denver
+Woods Boss Brewing Company,39.7509139,-104.9845517,Denver
+Tivoli Brewing Co. Tap House,39.7453699,-105.0053835,Denver
+Spangalang Brewery,39.7552332,-104.9770723,Denver
+Diebolt Brewing Company,39.7703523,-105.0031355,Denver
+Jackalope Brewing Company - The Den,36.1503747,-86.7793791,Nashville
+Tennessee Brew Works,36.1503993,-86.7761828,Nashville
+Southern Grist Brewing Company - East Nashville Taproom,36.1888142,-86.728782,Nashville
+Bearded Iris Brewing,36.1809983,-86.7860011,Nashville
+Nashville Brewing Company (Brewers of Genuine Lager Beers),36.1582456,-86.81002199999999,Nashville
+New Heights Brewing Company,36.1491256,-86.7707415,Nashville
+Little Harpeth Brewing,36.1743709,-86.77631,Nashville
+Jackalope Brewing Company - The Ranch,36.1426813,-86.7668817,Nashville
+Czann's Brewing Co LLC,36.1534076,-86.7742372,Nashville
+East Nashville Beer Works,36.2051802,-86.76321709999999,Nashville
+Blackstone Brewing Co,36.158232,-86.810148,Nashville
+Smith & Lentz Brewing,36.176528,-86.75666199999999,Nashville
+Rock Bottom Restaurant & Brewery,36.16174660000001,-86.77480299999999,Nashville
+TailGate Brewery East,36.1863389,-86.7469972,Nashville
+TailGate Brewery Music Row,36.152581,-86.7913389,Nashville
+Honky Tonk Brewing Co.,36.194814,-86.78871,Nashville
+Transmitter Brewing,40.6985551,-73.9712029,New_York_City
+Kings County Brewers Collective,40.7060658,-73.9236918,New_York_City
+Brooklyn Brewery,40.7217625,-73.9577086,New_York_City
+Circa Brewing Co.,40.69166,-73.986036,New_York_City
+Fifth Hammer Brewing Company,40.7465012,-73.9515405,New_York_City
+Queens Brewery,40.6949906,-73.904021,New_York_City
+Rockaway Brewing Company,40.7471787,-73.9549285,New_York_City
+Evil Twin Brewing NYC,40.6963598,-73.9041378,New_York_City
+Big aLICe Brewing,40.7520862,-73.9505873,New_York_City
+Grimm Artisanal Ales,40.714267,-73.936528,New_York_City
+Interboro Spirits & Ales,40.7127146,-73.9370439,New_York_City
+Threes Brewing Greenpoint,40.7304321,-73.9578173,New_York_City
+Greenpoint Beer & Ale Co.,40.73768,-73.9552235,New_York_City
+ICONYC Brewing Company LIC,40.7501896,-73.9488192,New_York_City
+Bridge and Tunnel Brewery,40.693822,-73.902835,New_York_City
+18th Ward Brewing,40.7196427,-73.9394933,New_York_City
+Dorchester Brewing Company,42.3221186,-71.06267199999999,Boston
+Lamplighter Brewing Co.,42.3679837,-71.0978914,Boston
+Winter Hill Brewing Company,42.392658,-71.09398399999999,Boston
+Democracy Brewing,42.3551124,-71.0621669,Boston
+Bone Up Brewing Co.,42.4055753,-71.06573,Boston
+Remnant Brewing,42.3810179,-71.0982183,Boston
+Aeronaut Brewing Company,42.3819849,-71.10624539999999,Boston
+Harpoon Brewery & Beer Hall,42.3469065,-71.0344387,Boston
+Cambridge Brewing Company,42.3672824,-71.09022639999999,Boston
+Trillium Brewing Company,42.3521739,-71.047469,Boston
+Somerville Brewing Company - Slumbrew,42.3748169,-71.0892519,Boston
+Night Shift Brewing - Everett,42.4059707,-71.067886,Boston
+Cheeky Monkey Brewing Co.,42.3472766,-71.0948014,Boston
+BearMoose Brewing Company,42.4025721,-71.0515875,Boston
+Mass Bay Brewing Co,42.3471775,-71.03409649999999,Boston
+Rock Bottom Restaurant & Brewery,42.3513292,-71.0653274,Boston
+Down the Road Beer Co.,42.3985863,-71.0612645,Boston
+Port Orleans Brewing Co.,29.9172045,-90.09866770000001,New_Orleans
+The Courtyard Brewery,29.940019,-90.07186639999999,New_Orleans
+Brieux Carré Brewing Co.,29.9626495,-90.05723619999999,New_Orleans
+Urban South Brewery,29.92975199999999,-90.06702299999999,New_Orleans
+Miel Brewery & Taproom,29.9205538,-90.08019399999999,New_Orleans
+New Orleans Lager & Ale (NOLA) Brewing,29.9197607,-90.0816942,New_Orleans
+All Relation Brewing,29.9412152,-90.07786999999999,New_Orleans
+Gordon Biersch Brewery Restaurant,29.948039,-90.064942,New_Orleans
+Zony Mash Beer Project,29.952161,-90.09755779999999,New_Orleans
+Broad Street Cider,29.951456,-90.0999744,New_Orleans
+Parleaux Beer Lab,29.96072899999999,-90.03399,New_Orleans
+Second Line Brewing,29.982552,-90.1052855,New_Orleans
+Luncheon Meat Louies,29.904186,-90.052118,New_Orleans
+Craft Kettle Brewing Equipment,29.9299297,-90.06707990000001,New_Orleans
+Insanitea Kombucha,29.9803225,-90.07333539999999,New_Orleans
+Big Easy Bucha,29.9568538,-90.09781219999999,New_Orleans
+Kajun's Pub,29.9684801,-90.0550919,New_Orleans
+San Francisco Brewing Co.,37.8058697,-122.4230558,San_Francisco
+Local Brewing Co.,37.7764809,-122.3971189,San_Francisco
+Cellarmaker Brewing Co.,37.777171,-122.41073,San_Francisco
+Anchor Brewing Company,37.7634526,-122.4010446,San_Francisco
+Black Hammer Brewing,37.7806806,-122.3969583,San_Francisco
+ThirstyBear Brewing Company,37.7854669,-122.3996207,San_Francisco
+Barebottle Brewing Company,37.7398597,-122.4091179,San_Francisco
+Magnolia Brewing - Dogpatch,37.7577344,-122.3880825,San_Francisco
+Magnolia Brewing - Haight,37.7703924,-122.4451482,San_Francisco
+Sunset Reservoir Brewing Company,37.7537616,-122.4824114,San_Francisco
+Triple Voodoo Brewery,37.76121,-122.388459,San_Francisco
+Lupulandia Brewing,37.7611234,-122.4191329,San_Francisco
+Little Creatures Brewing Mission Bay,37.7757457,-122.3902222,San_Francisco
+Harmonic Brewing,37.75161600000001,-122.390041,San_Francisco
+Speakeasy Ales & Lagers,37.7381083,-122.3806219,San_Francisco
+Cellarmaker Brewing,37.7456981,-122.4194949,San_Francisco
