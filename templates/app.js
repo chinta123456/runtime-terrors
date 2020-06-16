@@ -5,6 +5,10 @@ var beverage = "";
 var attribute = "";
 var selCity = "";
 
+var div = document.getElementById('jsObject');
+
+div.style.visibility = 'hidden';
+
 function beerclick() {
     var attributes = quizData_beer;
 
@@ -12,7 +16,7 @@ function beerclick() {
 
     attributes.forEach(name => {
                     selector.append("div")
-                            .attr("class", "card shadow")
+                            .attr("class", "card m-2 shadow")
                             .each(function(d) {
                               d3.select(this).append("div")
                                 .attr("class", "card-body")
@@ -35,7 +39,7 @@ function cocktailclick() {
 
   attributes.forEach(name => {
                   selector.append("div")
-                          .attr("class", "card shadow")
+                          .attr("class", "card m-2 shadow")
                           .each(function(d) {
                             d3.select(this).append("div")
                               .attr("class", "card-body")
@@ -55,8 +59,10 @@ function data_log() {
   if (event.target.value === 'Beer' || event.target.value === 'Cocktails') {
     beverage = event.target.value
   } else {
-    attribute = event.target.value
-    selCity = destination()
+    attribute = event.target.value;
+    selCity = destination();
+    showDiv();
+    // cityfunction()
   };
 };
 
@@ -96,5 +102,9 @@ function destination() {
   return selCity
 };
 
-
+function showDiv()
+{
+  div.style.visibility = 'visible';
+    //or something
+}
 // YOUR CODE HERE!
