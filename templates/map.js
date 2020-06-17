@@ -1,6 +1,6 @@
 // Creating map object
 
-var data = data /// data dict that contains city lat lng pairs
+var data = d3.json("cities.json")
 var lat = data.selCity[0]
 var lng = data.selCity[1]
 
