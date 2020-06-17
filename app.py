@@ -10,7 +10,11 @@ CORS(app)
 # Use PyMongo to establish Mongo connection
 mongo = PyMongo(app, uri="mongodb+srv://marissacasazza:1234567890@cluster0-bmjvi.mongodb.net/<cityDB>?retryWrites=true&w=majority")
 
-
+#Route that will take you to home page
+@app.route('/')
+def index():
+    return render_template('/index.html')
+    
 # Route that will trigger the scrape function
 
 @app.route("/citydata", methods=["GET", "POST"])
