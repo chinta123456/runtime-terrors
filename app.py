@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Use PyMongo to establish Mongo connection
-mongo = PyMongo(app, uri="mongodb+srv://marissacasazza:1234567890@cluster0-bmjvi.mongodb.net/<dbname>?retryWrites=true&w=majority")
+mongo = PyMongo(app, uri="mongodb+srv://marissacasazza:1234567890@cluster0-bmjvi.mongodb.net/<cityDB>?retryWrites=true&w=majority")
 
 
 #Route that will take you to homepage
