@@ -1,20 +1,15 @@
 from flask import Flask, render_template, redirect, jsonify, request
 from flask_pymongo import PyMongo
 import os
-
+from flask_cors import CORS
 
 # Create an instance of Flask
 app = Flask(__name__)
+CORS(app)
 
 # Use PyMongo to establish Mongo connection
 mongo = PyMongo(app, uri="mongodb+srv://marissacasazza:1234567890@cluster0-bmjvi.mongodb.net/<cityDB>?retryWrites=true&w=majority")
 
-
-#Route that will take you to homepage
-
-@app.route('/')
-def index():
-    return render_template('/index.html')
 
 # Route that will trigger the scrape function
 
@@ -32,6 +27,16 @@ def city():
             del item['_id']
             top5["result"].append(item[selcity])
             i = i + 1
+
+    ##bringing in pub data
+    pub_results = mongo.db.pubs.find({selcity: { "$exists": True }})
+    top5pubs = {"result": []}
+    i = 0
+    for pub in pub_results:
+        if (i < 5):
+            del pub['_id']
+            top5pubs["result"].append(pub[selcity])
+            i = i + 1
  
     #bring in the city data
 
@@ -45,9 +50,7 @@ def city():
             del city['_id']
             results.append(city)
 
-    
-
-    datadic = {"top5":top5, "tourdata":results }
+    datadic = {"top5":top5, "top5pubs": top5pubs, "tourdata":results}
 
     return(datadic)
 
