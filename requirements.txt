@@ -8,5 +8,5 @@ Flask-PyMongo>=2.3.0
 pandas>=1.0.4
 selenium>=3.141.0
 splinter>=0.13.0
-dnspython>=3.7
+dnspython
 
