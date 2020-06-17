@@ -1,3 +1,7 @@
+// API key
+const API_KEY = "sk.eyJ1IjoicmljaGFnNyIsImEiOiJja2F4N3loZXcwMnE0MnJvNTVoOGYwejl2In0.MWdCdo5q0s1BADhO6xoJkw";
+const MAP_URL = "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
+
 var quizData_beer = ['Sour', 'Sweet', 'Malty', 'Bitter', 'Dense'];
 var quizData_cocktail = ['Sour', 'Sweet', 'Smokey', 'Spicy', 'Smooth'];
 
@@ -8,103 +12,6 @@ var selCity = "";
 var div = document.getElementById('jsObject');
 
 div.style.visibility = 'hidden';
-
-function beerclick() {
-    var attributes = quizData_beer;
-
-    var selector = d3.select('#selDataset');
-
-    attributes.forEach(name => {
-                    selector.append("div")
-                            .attr("class", "card m-2 shadow")
-                            .each(function(d) {
-                              d3.select(this).append("div")
-                                .attr("class", "card-body")
-                                .each(function(e) {
-                                  d3.select(this).append("input")
-                                                .property("type", "button")
-                                                .property("value", name)
-                                                .property("id", name)
-                                                .attr("onclick", "data_log(this.value)")
-                                                .text(name);
-                                              });
-                              });
-                      });
-};
-
-function cocktailclick() {
-  var attributes = quizData_cocktail;
-
-  var selector = d3.select('#selDataset');
-
-  attributes.forEach(name => {
-                  selector.append("div")
-                          .attr("class", "card m-2 shadow")
-                          .each(function(d) {
-                            d3.select(this).append("div")
-                              .attr("class", "card-body")
-                              .each(function(e) {
-                                d3.select(this).append("input")
-                                              .property("type", "button")
-                                              .property("value", name)
-                                              .property("id", name)
-                                              .attr("onclick", "data_log(this.value)")
-                                              .text(name);
-                                            });
-                            });
-                    });
-};
-
-function data_log() {
-  if (event.target.value === 'Beer' || event.target.value === 'Cocktails') {
-    beverage = event.target.value
-  } else {
-    attribute = event.target.value;
-    selCity = destination();
-    showDiv();
-    cityData()
-  };
-};
-
-function destination() {
-  if (beverage === "Beer" && attribute === "Sour") {
-    var selCity = "Denver";
-    console.log(selCity);
-  } else if (beverage === "Beer" && attribute === "Sweet") {
-    var selCity = "Philadelphia";
-    console.log(selCity);
-  } else if (beverage === "Beer" && attribute === "Malty") {
-    var selCity = "Boston";
-    console.log(selCity);
-  } else if (beverage === "Beer" && attribute === "Bitter") {
-    var selCity = "New_York_City";
-    console.log(selCity);
-  } else if (beverage === "Beer" && attribute === "Dense") {
-    var selCity = "San_Francisco";
-    console.log(selCity);
-  } else if (beverage === "Cocktails" && attribute === "Sour") {
-    var selCity = "Denver";
-    console.log(selCity);
-  } else if (beverage === "Cocktails" && attribute === "Sweet") {
-    var selCity = "Philadelphia";
-    console.log(selCity);
-  } else if (beverage === "Cocktails" && attribute === "Smokey") {
-    var selCity = "Boston";
-    console.log(selCity);
-  } else if (beverage === "Cocktails" && attribute === "Spicy") {
-    var selCity = "New_York_City";
-    console.log(selCity);
-  } else if (beverage === "Cocktails" && attribute === "Smooth") {
-    var selCity = "San_Francisco";
-    console.log(selCity);
-  };
-
-  return selCity
-};
-
-function showDiv() {
-  div.style.visibility = 'visible';
-}
 
 function beersankeybuilder() {
   d3.json("beer_sankey.json").then((data) => {
@@ -182,6 +89,103 @@ function cocktailsankeybuilder() {
 beersankeybuilder();
 cocktailsankeybuilder();
 
+function beerclick() {
+    var attributes = quizData_beer;
+
+    var selector = d3.select('#selDataset');
+
+    attributes.forEach(name => {
+                    selector.append("div")
+                            .attr("class", "card m-2 shadow")
+                            .each(function(d) {
+                              d3.select(this).append("div")
+                                .attr("class", "card-body")
+                                .each(function(e) {
+                                  d3.select(this).append("input")
+                                                .property("type", "button")
+                                                .property("value", name)
+                                                .property("id", name)
+                                                .attr("onclick", "data_log(this.value)")
+                                                .text(name);
+                                              });
+                              });
+                      });
+};
+
+function cocktailclick() {
+  var attributes = quizData_cocktail;
+
+  var selector = d3.select('#selDataset');
+
+  attributes.forEach(name => {
+                  selector.append("div")
+                          .attr("class", "card m-2 shadow")
+                          .each(function(d) {
+                            d3.select(this).append("div")
+                              .attr("class", "card-body")
+                              .each(function(e) {
+                                d3.select(this).append("input")
+                                              .property("type", "button")
+                                              .property("value", name)
+                                              .property("id", name)
+                                              .attr("onclick", "data_log(this.value)")
+                                              .text(name);
+                                            });
+                            });
+                    });
+};
+
+function data_log() {
+  if (event.target.value === 'Beer' || event.target.value === 'Cocktails') {
+    beverage = event.target.value
+  } else {
+    attribute = event.target.value;
+    selCity = destination();
+    showDiv();
+    cityData();
+  };
+};
+
+function destination() {
+  if (beverage === "Beer" && attribute === "Sour") {
+    var selCity = "Denver";
+    console.log(selCity);
+  } else if (beverage === "Beer" && attribute === "Sweet") {
+    var selCity = "Philadelphia";
+    console.log(selCity);
+  } else if (beverage === "Beer" && attribute === "Malty") {
+    var selCity = "Boston";
+    console.log(selCity);
+  } else if (beverage === "Beer" && attribute === "Bitter") {
+    var selCity = "New_York_City";
+    console.log(selCity);
+  } else if (beverage === "Beer" && attribute === "Dense") {
+    var selCity = "San_Francisco";
+    console.log(selCity);
+  } else if (beverage === "Cocktails" && attribute === "Sour") {
+    var selCity = "Denver";
+    console.log(selCity);
+  } else if (beverage === "Cocktails" && attribute === "Sweet") {
+    var selCity = "Philadelphia";
+    console.log(selCity);
+  } else if (beverage === "Cocktails" && attribute === "Smokey") {
+    var selCity = "Boston";
+    console.log(selCity);
+  } else if (beverage === "Cocktails" && attribute === "Spicy") {
+    var selCity = "New_York_City";
+    console.log(selCity);
+  } else if (beverage === "Cocktails" && attribute === "Smooth") {
+    var selCity = "San_Francisco";
+    console.log(selCity);
+  };
+
+  return selCity
+};
+
+function showDiv() {
+  div.style.visibility = 'visible';
+}
+
 // fetch city data for busiest months, tour data (bars and restaurant recommendations) from flask app.py
 function cityData(selCity) {
   fetch('http://localhost:4444/citydata?city='+selCity).then(d=>d.json().then((data)=>{
@@ -215,41 +219,6 @@ function cityData(selCity) {
       tr.appendChild(td)
       tour_table.appendChild(tr);
     });
-    
-    // create the map
-    tour_table = document.getElementById('bar_map')
-    queryUrl = "https://raw.githubusercontent.com/RichaG7/runtime-terrors/master/templates/cities.json"
-    
-    d3.json(queryUrl).then((data) => {
-      var lat = data.selCity[0];
-      var lng = data.selCity[1];
-      var myMap = L.map("bar_map", {
-        center: [lat, lng],
-        zoom: 11
-      });
-      L.tileLayer(MAP_URL, {
-        attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-        maxZoom: 18,
-         id: 'mapbox/streets-v11',
-        accessToken: API_KEY
-      }).addTo(myMap);
-      
-      var response = data.top10_bar_location;
-      var markers = L.markerClusterGroup();
-      for (var i = 0; i < response.length; i++) {
-        // console.log(response[i])
-        // Set the data location property to a variable
-        if (response[i].latitude) {
-        
-          var latitude = response[i].latitude;
-      
-          var longitude = response[i].longitude;
-        
-          markers.addLayer(L.marker([latitude, longitude]));
-        }};
-      
-      myMap.addLayer(markers);
-      })
     }
   ));
 };
