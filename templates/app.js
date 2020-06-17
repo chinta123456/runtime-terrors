@@ -62,7 +62,7 @@ function data_log() {
     attribute = event.target.value;
     selCity = destination();
     showDiv();
-    // cityfunction()
+    cityData()
   };
 };
 
@@ -102,10 +102,8 @@ function destination() {
   return selCity
 };
 
-function showDiv()
-{
+function showDiv() {
   div.style.visibility = 'visible';
-    //or something
 }
 
 function beersankeybuilder() {
@@ -185,28 +183,73 @@ beersankeybuilder();
 cocktailsankeybuilder();
 
 // fetch city data for busiest months, tour data (bars and restaurant recommendations) from flask app.py
-fetch('/citydata').then(d=>d.json().then(data=>{
-  tbl = document.getElementById('busyMonthsTable')
-  tbl.innerHTML="<thead><tr><th>Busiest Months in 2017, by Flight Arrivals</th></thead>"
-  console.log(data) 
-  data.top5.result.forEach(city => { 
+function cityData(selCity) {
+  fetch('http://localhost:4444/citydata?city='+selCity).then(d=>d.json().then((data)=>{
+    tbl = document.getElementById('busyMonthsTable')
+    tbl.innerHTML="<thead><tr><th>Busiest Months in 2017, by Flight Arrivals</th></thead>"
+    console.log(data) 
+    data.top5.result.forEach(city => { 
+        tr = document.createElement('tr')
+        td = document.createElement('td')
+        td.innerHTML= `<b>${city}</b>`
+        tr.appendChild(td)
+        tbl.appendChild(tr);
+    });
+    resCard1 = document.getElementById('card_id_1')
+    resCard2 = document.getElementById('card_id_2')
+    resCard3 = document.getElementById('card_id_3')
+    resCard4 = document.getElementById('card_id_4')
+    resCard5 = document.getElementById('card_id_5')
+   console.log(data.top5pubs)
+    resCard1.innerHTML = data.top5pubs.result[0][0]
+    resCard2.innerHTML = data.top5pubs.result[0][1]
+    resCard3.innerHTML = data.top5pubs.result[0][2]
+    resCard4.innerHTML = data.top5pubs.result[0][3]
+    resCard5.innerHTML = data.top5pubs.result[0][4]
+    tour_table = document.getElementById('to-do-list')
+    tour_table.innerHTML=`<thead><tr><th>Top10 Tours in the ${selCity}</th></thead>`
+    data.tourdata[0].top10_tour.forEach(bar => { 
       tr = document.createElement('tr')
       td = document.createElement('td')
-      td.innerHTML= `<b>${city}</b>`
+      td.innerHTML= `<b>${bar}</b>`
       tr.appendChild(td)
-      tbl.appendChild(tr);
-  
-  tour_table = document.getElementById('to-do-list')
-  tour_table.innerHTML="<thead><tr><th>Top10 Tours in the City</th></thead>"
-  data.tourdata.result.forEach(city => { 
-    tr = document.createElement('tr')
-    td = document.createElement('td')
-    td.innerHTML= `<b>${city}</b>`
-    tr.appendChild(td)
-    tbl.appendChild(tr);
-
-  });
-})
-
-
-// MOE & Marissa your code will go here!
+      tour_table.appendChild(tr);
+    });
+    
+    // create the map
+    tour_table = document.getElementById('bar_map')
+    queryUrl = "https://raw.githubusercontent.com/RichaG7/runtime-terrors/master/templates/cities.json"
+    
+    d3.json(queryUrl).then((data) => {
+      var lat = data.selCity[0];
+      var lng = data.selCity[1];
+      var myMap = L.map("bar_map", {
+        center: [lat, lng],
+        zoom: 11
+      });
+      L.tileLayer(MAP_URL, {
+        attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+        maxZoom: 18,
+         id: 'mapbox/streets-v11',
+        accessToken: API_KEY
+      }).addTo(myMap);
+      
+      var response = data.top10_bar_location;
+      var markers = L.markerClusterGroup();
+      for (var i = 0; i < response.length; i++) {
+        // console.log(response[i])
+        // Set the data location property to a variable
+        if (response[i].latitude) {
+        
+          var latitude = response[i].latitude;
+      
+          var longitude = response[i].longitude;
+        
+          markers.addLayer(L.marker([latitude, longitude]));
+        }};
+      
+      myMap.addLayer(markers);
+      })
+    }
+  ));
+};
